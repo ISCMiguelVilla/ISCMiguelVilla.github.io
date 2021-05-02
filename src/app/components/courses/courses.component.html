@@ -1,0 +1,28 @@
+<div class="mb-5">
+    <div class="title-box text-center">
+        <h3 class="title-a">
+            Cursos y certificaciones
+        </h3>
+        <p class="subtitle-a">
+            Si no puedes explicarlo con sencillez, no lo has entendido bien.
+        </p>
+        <div class="line-mf"></div>
+    </div>
+
+    <div class="row course-row {{ last ? 'mt-3' : 'divider' }}" *ngFor="let course of courses; let last = last">
+        <div class="col-12 offset-md-1 col-md-3 course-title mb-3">
+            <div class="row">
+                <div class="col-10 col-md-12">
+                    <h5>{{ course.language }}</h5>
+                </div>
+                <div class="col-2 col-md-12">
+                    <h6>{{ course.year }}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7 course-summary">
+            <h5>{{ course.name }} <small>- {{ course.platform }}</small></h5>
+            <p>{{ course.description }}</p>
+        </div>
+    </div>
+</div>

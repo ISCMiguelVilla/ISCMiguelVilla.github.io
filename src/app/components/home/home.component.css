@@ -1,0 +1,104 @@
+/*====================================
+//--//-->   INTRO
+====================================*/
+
+.intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.intro .intro-content {
+    text-align: center;
+    position: absolute;
+}
+
+.intro .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+}
+
+.intro .intro-title {
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: lighter !important;
+}
+
+.intro .intro-subtitle {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: lighter !important;
+}
+
+.intro .text-slider-items {
+    display: none;
+}
+
+.intro a {
+    color: #fff;
+    margin: 0 8px 0 8px;
+    font-size: 1.2em;
+}
+
+.intro-single {
+    height: 350px;
+}
+
+.intro-single .intro-content {
+    margin-top: 30px;
+}
+
+.intro-single .intro-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.intro-single .breadcrumb {
+    background-color: transparent;
+    color: #6a8eb7;
+}
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+    color: #cde1f8;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+    color: #cde1f8;
+}
+
+.intro-single .breadcrumb a {
+    color: #fff;
+}
+
+.bg-image-top {
+    background-image: linear-gradient(90deg,
+        rgba(52,51,81,0.9) 0%,
+        rgba(53,56,87,0.9) 12%,
+        rgba(55,68,100,0.9) 24%,
+        rgba(55,80,110,0.9) 36%,
+        rgba(54,83,113,0.9) 50%,
+        rgba(50,101,130,0.9) 62%,
+        rgba(47,113,137,0.9) 74%,
+        rgba(49,125,148,0.9) 86%,
+        rgba(49,130,151,0.9) 100%
+    ), url('../../../assets/images/common/texture.jpg');
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}

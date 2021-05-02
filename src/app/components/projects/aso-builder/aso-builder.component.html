@@ -1,0 +1,310 @@
+<div class="container margin-navbar">
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+            <div class="card mt-5 p-5 box-shadow-full">
+                <div class="row mb-3">
+                    <div class="col-sm-12 col-lg-6">
+                        <img class="img-fluid rounded" src="assets/images/projects/aso_builder/aso_builder_portfolio.png" alt="banner">
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <h5 class="title-left mb-4 pt-4 pt-lg-0">
+                            ASOBuilder
+                        </h5>
+                        <p class="lead-custome">
+                            <strong>ASOBuilder</strong> es un proyecto que pretende <strong>agilizar el desarrollo de APIs; </strong>
+                            <strong>generando c&oacute;digo Java</strong>, el cual cumpla con las normativas y est&aacute;ndares requeridos por el
+                            cliente, <strong>liberando al desarrollador de trabajo mon&oacute;tono y repetitivo</strong>, permitiendo que
+                            este se enfoque solo en aquellos apartados que requieran supervisi&oacute;n humana.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6 skill-mf">
+                        <p class="title-s">Tecnolog&iacute;as:</p>
+                        <span>Java</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Spring Boot</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Thymeleaf</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="about-info">
+                            <p><span class="title-s">Propuesta y desarrollo: </span> <span>Miguel Villa</span></p>
+                            <p><span class="title-s">A&ntilde;o: </span> <span>2019</span></p>
+                            <p><span class="title-s">Cliente: </span> <span class="text-hidden">cliente no disponible</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-explanation mt-5">
+                <h5>Problem&aacute;tica</h5>
+                <hr>
+                <p>
+                    Las <strong>APIs</strong> requeridas por el cliente se describen tanto en <strong>RAML</strong> como en <strong>archivos de Excel</strong>
+                    (insumos), en los cuales se indica tanto la presentaci&oacute;n, datos de entrada y salida, as&iacute; como el servicio el cual deben consumir (backend).
+                    Es a partir de estos insumos que el desarrollador deber&aacute; programar el API, sin embargo <strong>este proceso suele ser
+                    tardado y complejo</strong>, por una parte <strong>debido a la magnitud de entradas y salidas, y por otra parte debido a errores</strong>
+                    comunes que surgen durante el desarrollo, (errores de tipado, malas pr&aacute;cticas de programaci&oacute;n).
+                </p>
+                <p>
+                    Considerando la estructura del proyecto que conforma el API, y sabiendo que hay excepciones, del 100% de c&oacute;digo que lo
+                    conforma, <strong>alrededor del 85% es c&oacute;digo transcrito</strong> de los archivos RAML y Excel a c&oacute;digo Java, <strong>5% est&aacute; relacionado
+                    con archivos de configuraci&oacute;n</strong> y tan solo el <strong>10% es c&oacute;digo de mayor complejidad</strong>. Esto permite ver que existe una
+                    secci&oacute;n de los proyectos, que aunque necesaria, merma el tiempo de desarrollo.
+                </p>
+                
+                
+                
+                <h5>Propuesta</h5>
+                <hr>
+                <p class="alert-comment">
+                    Debido a la gran cantidad de APIs que ya se encuentran desarrolladas a partir de los insumos (Excel y RAML) y a sabiendas que
+                    <strong>el cambio de estos insumos impacta directamente al flujo que el cliente ya tiene definido</strong> para la construcci&oacute;n
+                    de sus APIs, se realiz&oacute; la siguiente propuesta.
+                </p>
+                <p>
+                    Desarrollar un <strong>programa de utiler&iacute;a</strong> que agilice el desarrollo de las APIs del cliente, <strong>generando c&oacute;digo Java</strong>
+                    implementado sobre proyectos Maven, tomando como insumos de dise&ntilde;o del API los archivos RAML (<span class="kbd">.raml</span>) y Excel (<span class="kbd">.xlsx</span>),
+                    permitiendo <strong>disminuir hasta en un 90% el tiempo de desarrollo</strong>, as&iacute; como <strong>reducir los errores</strong> comunes de
+                    desarrollo al m&iacute;nimo. Brind&aacute;ndole a la empresa una herramienta para <strong>aprovechar al m&aacute;ximo el tiempo de sus recursos</strong>.
+                </p>
+                
+                
+                
+                <h5>Resultados</h5>
+                <hr>
+                <p>
+                    <strong>ASOBuilder es un servicio web desarrollado con Spring Boot</strong> el cual realiza la lectura de archivos de dise&ntilde;o de un API; <strong><span class="kbd">.xlsx</span>
+                    y <span class="kbd">.raml</span> para generar un proyecto maven</strong> comprimido en <span class="kbd">.zip</span>, en cual contiene tanto los archivos de configuraci&oacute;n del
+                    proyecto (<span class="kbd">.xml</span>) como archivos <span class="kbd">.java</span>.
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <figure class="figure">
+                            <a href="assets/images/projects/aso_builder/landing_page.png" target="_blank">
+                                <img src="assets/images/projects/aso_builder/landing_page.png" class="figure-img img-fluid img-thumbnail" alt="">
+                            </a>
+                            <figcaption class="figure-caption">Figura 1 | P&aacute;gina princial ASOBuilder.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <p>
+                    En la <span class="text-italic">figura 2</span> se muestra la <strong>estructura general del proyecto Maven</strong> resultante. De los tipos de
+                    clases que se generan destacan las denominadas como <strong>DTO</strong> y <strong>DTOInt</strong> por ser las clases m&aacute;s extensas, as&iacute; como las
+                    clases <strong>MapStructMapper</strong> y <strong>ArchMapper</strong> que adem&aacute;s de ser igual de extensas que las anteriores, son de mayor
+                    complejidad. Es importante mencionar que la imagen tan solo es una representaci&oacute;n ya que en realidad <strong>la cantidad de clases generadas es mucho
+                    mayor</strong> y depende directamente de los insumos.
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <figure class="figure">
+                            <a href="assets/images/projects/aso_builder/general_diagram.png" target="_blank">
+                                <img src="assets/images/projects/aso_builder/general_diagram.png" class="figure-img img-fluid img-thumbnail" alt="">
+                            </a>
+                            <figcaption class="figure-caption">Figura 2 | Diagrama general de las APIs.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+
+
+                <h5>Conclusiones</h5>
+                <hr>
+                <p>
+                    En el siguiente gr&aacute;fico se muestra una comparativa del tiempo empleado por un desarrollador y el tiempo empleado por el proyecto ASOBuilder;
+                    para el desarrollo de un <strong>API con 700 campos de entrada</strong>. Considerando el tiempo de desarrollo, atenci&oacute;n a errores y despliegue; se
+                    hace evidente la diferencia de tiempo, ya que sumando el tiempo empleado por cada uno se obtiene un total de <strong>13 d&iacute;as para el desarrollador</strong>
+                    y tan solo <strong>2 d&iacute;as generando c&oacute;digo ASOBuilder</strong>. A pesar de que ASOBuilder genera el c&oacute;digo en cuesti&oacute;n de segundos, el tiempo
+                    marcado en el gr&aacute;fico se debe a que el c&oacute;digo generado no est&aacute; completamente listo para ser desplegado, por lo que se requiere de un desarrollador para
+                    completar el c&oacute;digo.
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <a href="assets/images/projects/aso_builder/render_monitor.png" target="_blank">
+                            <img src="assets/images/projects/aso_builder/render_monitor.png" class="figure-img img-fluid img-thumbnail" alt="">
+                        </a>
+                        <figcaption class="figure-caption">Grafico 1 | Comparativa desarrador - ASOBuilder.</figcaption>
+                    </div>
+                </div>
+                <br>
+                <p class="mt-2">
+                    A modo de resumen se presenta la siguiente tabla con la suma total de las horas:
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th></th>
+                                        <th class="text-center">Desarrollo</th>
+                                        <th class="text-center">Atenci&oacute;n a errores</th>
+                                        <th class="text-center">Despliegue</th>
+                                        <th class="text-center">Total de d&iacute;as</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-warning">
+                                        <th scope="row">Desarrollador</th>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">1</td>
+                                        <td class="text-center">13</td>
+                                    </tr>
+                                    <tr class="table-success">
+                                        <th scope="row">ASOBuilder</th>
+                                        <td class="text-center">1/2</td>
+                                        <td class="text-center">1</td>
+                                        <td class="text-center">1/2</td>
+                                        <td class="text-center">2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <figcaption class="figure-caption">Tabla 1 | Suma total de horas.</figcaption>
+                    </div>
+                </div>
+
+
+
+
+                <p class="mt-4">
+                    Listado de secciones y c&oacute;digo que ASOBuilder es capaz de generar:
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover table-bordered text-start">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="text-center">Paquete</th>
+                                        <th class="text-center">Tipo de clase</th>
+                                        <th class="text-center">% main</th>
+                                        <th class="text-center">% test</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-active">
+                                        <th scope="row">Proyecto maven</th>
+                                        <td>estructura y archivos de configuraci&oacute;n</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="4">Facade</th>
+                                        <td>Service</td>
+                                        <td class="text-center">80%</td>
+                                        <td class="text-center">70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DTO</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MapStructMapper</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ArchMapper</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">100%</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th scope="row" rowspan="2">Business</th>
+                                        <td>Service</td>
+                                        <td class="text-center">90%</td>
+                                        <td class="text-center">90%</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td>DTOInt</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="4">DAO</th>
+                                        <td>Service</td>
+                                        <td class="text-center">80%</td>
+                                        <td class="text-center">70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DTO</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MapStructMapper</td>
+                                        <td class="text-center">90%</td>
+                                        <td class="text-center">90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ArchMapper</td>
+                                        <td class="text-center">90%</td>
+                                        <td class="text-center">90%</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th scope="row" rowspan="4">Otros</th>
+                                        <td>Constantes</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td>Enums</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <figcaption class="figure-caption">Tabla 2 | Porcentage de c&oacute;digo.</figcaption>
+                    </div>
+                </div>
+
+
+
+                <h5>Trabajos futuros</h5>
+                <hr>
+                <p>
+                    Como se mencion&oacute; anteriormente; el desarrollo de esta utiler&iacute;a se hizo con base a los insumos que el cliente tiene definidos y tan solo se agreg&oacute;
+                    un nuevo componente que genere el c&oacute;digo, con la finalidad de no entorpecer el proceso que los desarrolladores tienen definido. Sin embargo, y sin
+                    entrar en m&aacute;s detalle sobre el proceso de dise&ntilde;o del API, <strong>se podr&iacute;a considerar cambiar dichos insumos</strong> ya que trabajar con archivos
+                    de excel resulta complicado y en ocasiones contraproducente m&aacute;s a&uacute;n sabiendo que existen m&aacute;s y mejor opciones. Sin ir m&aacute;s lejos <strong>archivos
+                    como XML o JSON son opciones m&aacute;s simples</strong> y con m&aacute;s posibilidades.
+                </p>
+                <p>
+                    Siguiendo en la misma vertiente, cambiando los insumos de dise&ntilde;o de archivos de Excel a formato <span class="text-hidden">esta secci&oacute;n se omite ya que este documento s&oacute;lo
+                    es una breve introducci&oacute;n a los proyectos que he desarrollado a lo largo de mi carrera profesional</span>, lo cual agilizar&aacute; a&uacute;n m&aacute;s el desarrollo <span class="text-hidden">esta secci&oacute;n
+                    se omite ya que este documento s&oacute;lo es una breve introducci&oacute;n a los proyectos que he desarrollado a lo largo de mi carrera profesional</span>. De hecho internamente ASOBuilder 
+                    <span class="text-hidden">esta secci&oacute;n se omite ya que este documento s&oacute;lo es una breve introducci&oacute;n a los proyectos que he desarrollado a lo largo de mi carrera profesional</span>,
+                    por lo que no representar&iacute;a un cambio significativo.
+                </p>
+                <p>
+                    Adicional a estos y considerando que ASOBuilder almacena la informaci&oacute;n de cada API que genera, es posible agregar un m&oacute;dulo <span class="text-hidden">esta secci&oacute;n
+                    se omite ya que este documento s&oacute;lo es una breve introducci&oacute;n a los proyectos que he desarrollado a lo largo de mi carrera profesional</span> agilizando no solo la
+                    fase de desarrollo sino tambi&eacute;n la fase de pruebas.
+                </p>
+                <div class="mb-5"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+            <app-portfolio></app-portfolio>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+
+.skill-icon {
+    filter: grayscale(100%);
+}
+
+.skill-icon:hover {
+    filter: grayscale(0);
+    transition: 300ms;
+}
+
+.skill-box .skill-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.skill-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 4rem;
+}
+
+.skill-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+.skill-box .s-description {
+    color: #4e4e4e;
+}
+
+.skill-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #6a8eb7;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 16px auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #6a8eb7;
+    display: block;
+}
+  

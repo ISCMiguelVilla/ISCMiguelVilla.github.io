@@ -1,0 +1,31 @@
+<div class="mb-5">
+    <div class="title-box text-center">
+        <h3 class="title-a">
+            HABILIDADES
+        </h3>
+        <p class="subtitle-a">
+            El verdadero signo de inteligencia no es el conocimiento, sino la imaginación.
+        </p>
+        <div class="line-mf"></div>
+    </div>
+    
+    <div class="row justify-content-center mb-1">
+        <div class="col-md-4 mb-5" *ngFor="let language of languages">
+            <div class="card skill-box box-shadow-full">
+                <div class="card-body">
+                    <div class="skill-ico">
+                        <span class="ico-circle"><i class="{{ language.icon }}"></i></span>
+                    </div>
+                    <div class="skill-content">
+                        <h2 class="s-title">{{ language.title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-2 col-md-1 mb-5" *ngFor="let skill of skills">
+            <img class="img-fluid skill-icon" src="{{ skill.image }}" alt="{{ skill.name }}">
+        </div>
+    </div>
+</div>

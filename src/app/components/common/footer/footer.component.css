@@ -1,0 +1,92 @@
+.bg-image-top {
+    background-image: linear-gradient(90deg,
+        rgba(52,51,81,0.9) 0%,
+        rgba(53,56,87,0.9) 12%,
+        rgba(55,68,100,0.9) 24%,
+        rgba(55,80,110,0.9) 36%,
+        rgba(54,83,113,0.9) 50%,
+        rgba(50,101,130,0.9) 62%,
+        rgba(47,113,137,0.9) 74%,
+        rgba(49,125,148,0.9) 86%,
+        rgba(49,130,151,0.9) 100%
+    ), url('../../../../assets/images/common/texture.jpg');
+}
+
+.intro {
+    position: relative;
+}
+
+.intro .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+}
+
+.title-left {
+    font-size: 2rem;
+    position: relative;
+}
+
+.title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #6a8eb7;
+    width: 100px;
+    bottom: -12px;
+}
+
+.socials ul li {
+    display: inline-block;
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #6a8eb7;
+    display: block;
+  }
+  
+
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #6a8eb7;
+    transition: all 500ms ease;
+}
+
+.socials .ico-circle:hover {
+    background-color: #6a8eb7;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+}
+
+.list-ico {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-ico {
+    line-height: 2;
+}
+
+.list-ico i {
+    color: #6a8eb7;
+    margin-right: 10px;
+}
