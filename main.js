@@ -2194,7 +2194,7 @@ class AccountantComponent {
     }
 }
 AccountantComponent.ɵfac = function AccountantComponent_Factory(t) { return new (t || AccountantComponent)(); };
-AccountantComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AccountantComponent, selectors: [["app-accountant"]], decls: 111, vars: 0, consts: [[1, "container", "margin-navbar"], [1, "row", "justify-content-center"], [1, "col-12", "col-xl-10"], [1, "card", "mt-5", "p-5", "box-shadow-full"], [1, "row", "mb-3"], [1, "col-sm-12", "col-lg-6"], ["src", "assets/images/projects/accountant/accountant_portfolio.png", "alt", "banner", 1, "img-fluid", "rounded"], [1, "title-left", "mb-4", "pt-4", "pt-lg-0"], [1, "lead-custome"], [1, "row"], [1, "col-sm-12", "col-lg-6", "skill-mf"], [1, "title-s"], [1, "pull-right"], [1, "progress"], ["role", "progressbar", "aria-valuenow", "100", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", 2, "width", "100%"], [1, "about-info"], [1, "project-explanation", "mt-5"], [1, "col-12", "offset-md-2", "col-md-8", "text-center"], [1, "figure"], ["href", "assets/images/projects/accountant/landing_page.png", "target", "_blank"], ["src", "assets/images/projects/accountant/landing_page.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], [1, "figure-caption"], ["href", "assets/images/projects/accountant/calendar.png", "target", "_blank"], ["src", "assets/images/projects/accountant/calendar.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], ["href", "assets/images/projects/accountant/graphic.png", "target", "_blank"], ["src", "assets/images/projects/accountant/graphic.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], ["href", "assets/images/projects/accountant/responsive_design.png", "target", "_blank"], ["src", "assets/images/projects/accountant/responsive_design.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], [1, "mb-5"], [1, "container"]], template: function AccountantComponent_Template(rf, ctx) { if (rf & 1) {
+AccountantComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AccountantComponent, selectors: [["app-accountant"]], decls: 118, vars: 0, consts: [[1, "container", "margin-navbar"], [1, "row", "justify-content-center"], [1, "col-12", "col-xl-10"], [1, "card", "mt-5", "p-5", "box-shadow-full"], [1, "row", "mb-3"], [1, "col-sm-12", "col-lg-6"], ["src", "assets/images/projects/accountant/accountant_portfolio.png", "alt", "banner", 1, "img-fluid", "rounded"], [1, "title-left", "mb-4", "pt-4", "pt-lg-0"], [1, "lead-custome"], [1, "row"], [1, "col-sm-12", "col-lg-6", "skill-mf"], [1, "title-s"], [1, "pull-right"], [1, "progress"], ["role", "progressbar", "aria-valuenow", "100", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", 2, "width", "100%"], [1, "about-info"], [1, "project-explanation", "mt-5"], [1, "col-12", "offset-md-2", "col-md-8", "text-center"], [1, "figure"], ["href", "assets/images/projects/accountant/landing_page.png", "target", "_blank"], ["src", "assets/images/projects/accountant/landing_page.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], [1, "figure-caption"], ["href", "assets/images/projects/accountant/calendar.png", "target", "_blank"], ["src", "assets/images/projects/accountant/calendar.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], ["href", "assets/images/projects/accountant/graphic.png", "target", "_blank"], ["src", "assets/images/projects/accountant/graphic.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], ["href", "assets/images/projects/accountant/responsive_design_1.png", "target", "_blank"], ["src", "assets/images/projects/accountant/responsive_design_1.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], ["href", "assets/images/projects/accountant/responsive_design_2.png", "target", "_blank"], ["src", "assets/images/projects/accountant/responsive_design_2.png", "alt", "", 1, "figure-img", "img-fluid", "img-thumbnail"], [1, "mb-5"], [1, "container"]], template: function AccountantComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -2353,20 +2353,32 @@ AccountantComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](103, "img", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "figcaption", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Figura 4 | Dise\u00F1o responivo.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Figura 4 | Dise\u00F1o responsivo 1.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "figure", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "img", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "figcaption", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Figura 5 | Dise\u00F1o responsivo 2.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "app-portfolio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](117, "app-portfolio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
