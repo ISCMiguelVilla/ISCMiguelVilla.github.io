@@ -12,6 +12,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { FooterComponent } from './components/common/footer/footer.component';
 import { AsoBuilderComponent } from './components/projects/aso-builder/aso-builder.component';
+import { AsoBuilder2Component } from './components/projects/aso-builder-2/aso-builder-2.component';
 import { DatabaseHelperComponent } from './components/projects/database-helper/database-helper.component';
 import { DevsUtilitiesComponent } from './components/projects/devs-utilities/devs-utilities.component';
 import { ProjectManagerComponent } from './components/projects/project-manager/project-manager.component';
@@ -29,6 +30,7 @@ import { BuilderComponent } from './components/projects/builder/builder.componen
     CoursesComponent,
     FooterComponent,
     AsoBuilderComponent,
+    AsoBuilder2Component,
     DatabaseHelperComponent,
     DevsUtilitiesComponent,
     ProjectManagerComponent,

@@ -16,12 +16,12 @@
                     <img src="{{project.image}}" class="card-img-top" alt="{{ project.title }}">
                 </div>
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col-8">
+                    <div class="row mb-2">
+                        <div class="col-sm-8">
                             <h5 class="card-title">{{ project.title }}</h5>
                         </div>
-                        <div class="col-4 text-end" *ngIf="project.status != null">
-                            <span class="badge" [ngClass]="project.highlight ? 'bg-success': 'bg-warning'">{{ project.status }}</span>
+                        <div class="col-sm-4 text-sm-end" *ngIf="project.tags != null">
+                            <span class="badge me-2" *ngFor="let tag of project.tags" [ngClass]="tag.color">{{ tag.value }}</span>
                         </div>
                     </div>
                     <h6 class="card-subtitle mb-2 text-muted">{{ project.technologies }}</h6>

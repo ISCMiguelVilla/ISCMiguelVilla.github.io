@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { HomeComponent } from './components/home/home.component';
 
 import { AsoBuilderComponent } from './components/projects/aso-builder/aso-builder.component';
+import { AsoBuilder2Component } from './components/projects/aso-builder-2/aso-builder-2.component';
 import { DatabaseHelperComponent } from './components/projects/database-helper/database-helper.component';
 import { DevsUtilitiesComponent } from './components/projects/devs-utilities/devs-utilities.component';
 import { ProjectManagerComponent } from './components/projects/project-manager/project-manager.component';
@@ -13,6 +14,7 @@ import { BuilderComponent } from './components/projects/builder/builder.componen
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'aso-builder', component: AsoBuilderComponent },
+    { path: 'aso-builder-2', component: AsoBuilder2Component },
     { path: 'database-helper', component: DatabaseHelperComponent },
     { path: 'devs-utilities', component: DevsUtilitiesComponent },
     { path: 'project-manager', component: ProjectManagerComponent },

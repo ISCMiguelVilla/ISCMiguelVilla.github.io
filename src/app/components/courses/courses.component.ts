@@ -9,6 +9,30 @@ export class CoursesComponent implements OnInit {
 
   courses = [
     {
+      language: 'java',
+      year: '2021',
+      name: 'Programación Funcional con Java SE',
+      platform: 'PLATZI',
+      description: 'Bases de programación funcional, funciones puras, funciones de orden superior, funciones lambda, interfaces funcionales; function, predicate, consumer, supplier, bi-functions. Duración: 4 horas'
+    },
+
+    {
+      language: 'kotlin',
+      year: '2021',
+      name: 'Curso de Kotlin',
+      platform: 'PLATZI',
+      description: 'Fundamentos de Kotlin, estructuras de control de flujo, colecciones de datos, scope functions. Duración: 4 horas'
+    },
+
+    {
+      language: 'java',
+      year: '2021',
+      name: 'Curso de Java Spring',
+      platform: 'PLATZI',
+      description: 'APIs con Java Spring, conexion a base de datos PostgreSQL, documentación de APIs con Swagger, desplegar aplicaciones en Heroku. Duración: 5 horas'
+    },
+
+    {
       language: 'django',
       year: '2020',
       name: 'Desarrollo Web con Python y Django',
@@ -29,7 +53,7 @@ export class CoursesComponent implements OnInit {
       year: '2020',
       name: 'Spring Boot 2 & Spring MVC',
       platform: 'UDEMY',
-      description: 'Spring Framework, Spring Boot, Spring Data JPA, Hibernate, Thymeleaf, APIs REST. Duración: 42,5 horas'
+      description: 'Spring Framework, Spring Boot, Spring Data JPA, Hibernate, Thymeleaf integración con Bootstrap, conexión con bases de datos relacionales H2 y MySQL. Duración: 42,5 horas'
     },
 
     {

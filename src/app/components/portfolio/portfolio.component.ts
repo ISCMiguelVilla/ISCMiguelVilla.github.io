@@ -9,10 +9,32 @@ export class PortfolioComponent implements OnInit {
 
   projects = [
     {
+      title: 'ASOBuilder 2.0',
+      date: 'Julio 2021',
+      route: '/aso-builder-2',
+      tags: [{
+        value: 'Destacado',
+        color: 'bg-success'
+      }, {
+        value: 'Actualizado',
+        color: 'bg-warning'
+      }],
+      highlight: true,
+      technologies: 'Java | Spring Boot | Thymeleaf',
+      description: 'Crea APIs sin programar a partir de su definicion.',
+      image: 'assets/images/projects/aso_builder_2/aso_builder_portfolio.png'
+    },
+    {
       title: 'Builder',
       date: 'Abril 2021',
       route: '/builder',
-      status: 'Destacado',
+      tags: [{
+        value: 'Destacado',
+        color: 'bg-success'
+      }, {
+        value: 'Actualizado',
+        color: 'bg-warning'
+      }],
       highlight: true,
       technologies: 'Java | Spring Boot | Angular',
       description: 'Crea el código que te gustaría que existiera sin siquiera escribir.',
@@ -22,7 +44,10 @@ export class PortfolioComponent implements OnInit {
       title: 'Accountant',
       date: 'Enero 2021',
       route: '/accountant',
-      status: 'Actualizado',
+      tags: [{
+        value: 'Actualizado',
+        color: 'bg-warning'
+      }],
       highlight: false,
       technologies: 'Java | Spring Boot | Thymeleaf',
       description: 'Seguimiento a tu contabilidad, registra tus ingresos y egresos.',
@@ -59,7 +84,13 @@ export class PortfolioComponent implements OnInit {
       title: 'ASOBuilder',
       date: 'Julio 2019',
       route: '/aso-builder',
-      status: 'Destacado',
+      tags: [{
+        value: 'Destacado',
+        color: 'bg-success'
+      },{
+        value: 'Deprecado',
+        color: 'bg-danger'
+      }],
       highlight: true,
       technologies: 'Java | Spring Boot | Thymeleaf',
       description: 'Crea APIs sin programar a partir de su definicion.',

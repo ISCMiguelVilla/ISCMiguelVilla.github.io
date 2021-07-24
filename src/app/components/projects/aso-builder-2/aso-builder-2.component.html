@@ -1,0 +1,193 @@
+<div class="container margin-navbar">
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+            <div class="card mt-5 p-5 box-shadow-full">
+                <div class="row mb-3">
+                    <div class="col-sm-12 col-lg-6">
+                        <img class="img-fluid rounded" src="assets/images/projects/aso_builder_2/aso_builder_portfolio.png" alt="banner">
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <h5 class="title-left mb-4 pt-4 pt-lg-0">
+                            ASOBuilder 2.0
+                        </h5>
+                        <p class="lead-custome">
+                            <strong>ASOBuilder 2.0</strong> es la suguinte version del projecto <a href="#" class="card-link" [routerLink]="['/aso-builder']">ASOBuilder</a>, que pretende <strong>agilizar el desarrollo de APIs; </strong>
+                            <strong>generando c&oacute;digo Java</strong>, el cual cumpla con las normativas y est&aacute;ndares requeridos por el
+                            cliente, <strong>liberando al desarrollador de trabajo mon&oacute;tono y repetitivo</strong>, permitiendo que
+                            este se enfoque solo en aquellos apartados que requieran supervisi&oacute;n humana.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6 skill-mf">
+                        <p class="title-s">Tecnolog&iacute;as:</p>
+                        <span>Java</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Spring Boot</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Thymeleaf</span> <span class="pull-right">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="about-info">
+                            <p><span class="title-s">Propuesta y desarrollo: </span> <span>Miguel Villa</span></p>
+                            <p><span class="title-s">A&ntilde;o: </span> <span>2021</span></p>
+                            <p><span class="title-s">Cliente: </span> <span class="text-hidden">cliente no disponible</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-explanation mt-5">
+                <h5>Problem&aacute;tica</h5>
+                <hr>
+                <p>
+                    Las <strong>APIs</strong> requeridas por el cliente se describen tanto en <strong>RAML</strong> como en <strong>archivos de Excel</strong>
+                    (insumos), en los cuales se indica tanto la presentaci&oacute;n, datos de entrada y salida, as&iacute; como el servicio el cual deben consumir (backend).
+                    Es a partir de estos insumos que el desarrollador deber&aacute; programar el API, sin embargo <strong>este proceso suele ser
+                    tardado y complejo</strong>, por una parte <strong>debido a la magnitud de entradas y salidas, y por otra parte debido a errores</strong>
+                    comunes que surgen durante el desarrollo, (errores de tipado, malas pr&aacute;cticas de programaci&oacute;n).
+                </p>
+
+                <p class="alert-comment">
+                    La descripción completa del proyecto se encuentra en <a href="#" class="card-link" [routerLink]="['/aso-builder']">ASOBuilder</a>, esta versión se considera uno de los
+                    trabajos a futuros que se plantean durante el análisis del proyecto previo ASOBuilder.
+                </p>
+
+                <p>
+                    En esta versión <strong>se realizan ajustes mínimos</strong> en cuanto al código generado ya que desde <strong>la primera versión desarrollada en 2019</strong> los estándares implementados en
+                    el código han cambiado. Asimismo se realizó un <strong>cambio en la interfaz principal</strong> la cual ahora hace uso de un <strong>editor de código</strong> que
+                    permite capturar la descripción del proyecto en <strong>formato YAML</strong> y <strong>previsualizar el código generado</strong>, a diferencia del proyecto inicial que capturaba la
+                    información en un formulario web y que solo permitía ver el código hasta que se descargaba el archivo ZIP.
+                </p>
+                
+                <p class="mt-4">
+                    Listado de secciones y c&oacute;digo que ASOBuilder es capaz de generar:
+                </p>
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover table-bordered text-start">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="text-center">Paquete</th>
+                                        <th class="text-center">Tipo de clase</th>
+                                        <th class="text-center">% main</th>
+                                        <th class="text-center">% test</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-active">
+                                        <th scope="row">Proyecto maven</th>
+                                        <td>estructura y archivos de configuraci&oacute;n</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="3">Facade</th>
+                                        <td>Service</td>
+                                        <td class="text-center">80%</td>
+                                        <td class="text-center">70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DTO</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MapStructMapper</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th scope="row" rowspan="2">Business</th>
+                                        <td>Service</td>
+                                        <td class="text-center">90%</td>
+                                        <td class="text-center">90%</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td>DTOInt</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="4">DAO</th>
+                                        <td>Service</td>
+                                        <td class="text-center">80%</td>
+                                        <td class="text-center">70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DTO</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MapStructMapper</td>
+                                        <td class="text-center">90%</td>
+                                        <td class="text-center">90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WebService</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">100%</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th scope="row" rowspan="4">Otros</th>
+                                        <td>Constantes</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <td>Enums</td>
+                                        <td class="text-center">100%</td>
+                                        <td class="text-center">N/A</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <figcaption class="figure-caption">Tabla 1 | Porcentage de c&oacute;digo.</figcaption>
+                    </div>
+                </div>
+
+                <div class="mb-5"></div>
+
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <a href="assets/images/projects/aso_builder_2/landing_page.png" target="_blank">
+                            <img src="assets/images/projects/aso_builder_2/landing_page.png" class="figure-img img-fluid img-thumbnail" alt="">
+                        </a>
+                        <figcaption class="figure-caption">Figura 1 | Landing page.</figcaption>
+                    </div>
+                </div>
+
+                <div class="mb-5"></div>
+
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8 text-center">
+                        <a href="assets/images/projects/aso_builder_2/editor.png" target="_blank">
+                            <img src="assets/images/projects/aso_builder_2/editor.png" class="figure-img img-fluid img-thumbnail" alt="">
+                        </a>
+                        <figcaption class="figure-caption">Figura 2 | Editor.</figcaption>
+                    </div>
+                </div>
+
+                <div class="mb-5"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+            <app-portfolio></app-portfolio>
+        </div>
+    </div>
+</div>

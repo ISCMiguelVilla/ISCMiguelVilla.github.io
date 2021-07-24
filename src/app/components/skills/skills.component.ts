@@ -28,8 +28,12 @@ export class SkillsComponent implements OnInit {
       name: 'java'
     },
     {
-      image: 'assets/images/icons/python.png',
-      name: 'python'
+      image: 'assets/images/icons/kotlin.png',
+      name: 'kotlin'
+    },
+    {
+      image: 'assets/images/icons/lambda.png',
+      name: 'lambda'
     },
     {
       image: 'assets/images/icons/spring.png',
@@ -58,6 +62,10 @@ export class SkillsComponent implements OnInit {
     {
       image: 'assets/images/icons/intellij.png',
       name: 'intellij'
+    },
+    {
+      image: 'assets/images/icons/python.png',
+      name: 'python'
     },
     {
       image: 'assets/images/icons/docker.png',
